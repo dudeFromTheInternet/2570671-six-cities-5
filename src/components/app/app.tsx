@@ -12,7 +12,7 @@ import MemoizedNotFoundPage from '../../pages/not-found-page/not-found-page.tsx'
 import MemoizedLoginPage from '../../pages/login-page/login-page.tsx';
 import {BookmarkAction} from '../../types/bookmark-action.ts';
 import {changeBookmarkStatusAction} from '../../store/api-actions.ts';
-import {useCallback} from "react";
+import {useCallback} from 'react';
 
 function App(): JSX.Element {
   const dispatch = useDispatch<AppDispatch>();
